@@ -8,7 +8,7 @@ env:
   RESOURCE-GROUP: rg-eshoponweb-Jarno
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
-  SUBSCRIPTION-ID: SUBSCRIPTION-ID
+  SUBSCRIPTION-ID: $(SUBSCRIPTION-ID)
   WEBAPP-NAME: eshoponweb-webapp-Jarno
 
 
